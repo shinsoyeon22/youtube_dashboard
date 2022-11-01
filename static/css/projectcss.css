@@ -1,0 +1,53 @@
+.left{ width:70%; 
+    display: inline-block;
+    float: left;
+}
+.right{
+    width:30%;
+    display: inline-block;
+    float: right;
+    max-width: 450px;
+    
+}
+#name{
+    vertical-align: top;
+}
+.title > p{
+    display: inline;
+}
+a{
+    display: inline;
+    text-decoration: none;
+    vertical-align: top;
+}
+.right01{
+    max-width: 450px;
+}
+.right011{
+    width: 35%;
+    float: left;
+    height: 140px;     
+}
+.left011{
+    width: 65%;
+    float: right;
+    height: 140px;
+}
+span{
+    font-size: 13px;
+}
+p{
+    font-size: 15px;
+}
+#background{
+    background-image: url(./images/videos.PNG);
+    background-size: 100%;
+    width: 970px;
+    height: 540px;
+}
+#backimg{
+    position: relative;
+    top : 30px;
+    bottom: 30px;
+    left: 90px;
+}

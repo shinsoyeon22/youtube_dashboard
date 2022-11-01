@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    <div id="body">
+        <div id="tab1">
+            <div id="top10">
+                <img class="thumbnail" src="{% static 'images/thumbnail_top10.jpg' %}" alt="top10" onclick="">
+                <p id="category">구독자 상위 10위 채널</p>
+                <p>영상 길이 분석</p>
+            </div>
+            <div id="game">
+                <img class="thumnail" src="{% static 'images/thumbnail_game.jpg' %}" alt="game" onclick="">
+                <p id="category">게임 카테고리</p>
+                <p>구독자 상위 10위 채널 영상 분석</p>
+            </div>
+            <div id="cook">
+                <img class="thumnail" src="{% static 'images/thumbnail_cook.jpg' %}" alt="cook" onclick="">
+                <p id="category">요리/먹방 카테고리</p>
+                <p>구독자 상위 10위 채널 영상 분석</p>
+            </div>
+        </div>
+        <div id="tab2">
+            <div id="animal">
+                <img class="thumnail" src="{% static 'images/thumbnail_animal.jpg' %}" alt="animal" onclick="">
+                <p id="category">동물/반려동물 카테고리</p>
+                <p>구독자 상위 10위 채널 영상 분석</p>
+            </div>
+            <div id="collect">
+                <img class="thumnail" src="{% static 'images/thumbnail_collect.jpg' %}" alt="collect" onclick="">
+                <p id="category">종합 채널 영상 분석</p>
+            </div>
+            <div id="extra">
+                <img class="thumnail" src="{% static 'images/thumbnail_extra.jpg' %}" alt="extra" onclick="">
+                <p id="category">extra</p>
+            </div>
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>

@@ -56,7 +56,8 @@ img:hover {
 p {
     font-size: 14pt;  
 }
-#category {
-    padding-top: 6px;
+.category {
+            padding-top: 6px;
+            font-weight: 800;
 }
    
